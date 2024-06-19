@@ -23,3 +23,7 @@ const newset = new Set([1, 2, 1]);
 console.log(newset);
 const sethas = newset.has(1);
 console.log(sethas);
+
+//Array.from
+let arr = Array.from('hello'); // ['h', 'e', 'l', 'l', 'o']
+let arr = Array.from({ length: 5 }, (_, i) => i); // [0, 1, 2, 3, 4]
